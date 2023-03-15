@@ -5,15 +5,15 @@ import Tax from "../assets/tax.jpg";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-500 mt-4 rad h-fit">
-      <div className="flex flex-col  max-w-7xl mx-auto p-4">
-        <div className="flex flex-col md:flex-row align-middle gap-10 mx-auto mt-4 ">
+    <section className="bg-transparent bg-slate-500 h-fit">
+      <div className="flex flex-col  max-w-7xl mx-auto py-auto p-4">
+        <div className="flex flex-col md:flex-row align-middle gap-10 mx-auto py-4 mt-4 ">
           <img
             src={Banner2}
             alt="banner"
-            className=" max-w-lg  mt-4 object-cover rounded border-[5px] w-full"
+            className=" md:max-w-lg text-center mt-4 object-cover rounded border-[5px] w-full"
           />
-          <div className="text-center flex flex-col justify-center  ">
+          <div className="text-center flex flex-col justify-center md:max-w-lg   ">
             <h2 className="text-gray-100 text-center text-2xl my-4">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
               consequuntur!
@@ -29,14 +29,14 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row-reverse align-middle mx-auto gap-10 mt-4 ">
+        <div className="flex flex-col md:flex-row-reverse align-middle mx-auto py-4 gap-10 mt-4 ">
           <img
             src={Tax}
             alt="Banner2"
-            className="h-fit max-w-lg mt-4 object-cover rounded border-[5px] w-full"
+            className="h-fit md:max-w-lg mt-4 object-cover rounded border-[5px] w-full"
           />
 
-          <div className="text-center flex flex-col justify-center max-w-lg">
+          <div className="text-center flex flex-col justify-center md:max-w-lg ">
             <h2 className="text-gray-100 text-center text-2xl my-4">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
               consequuntur!
