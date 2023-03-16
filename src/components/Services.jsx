@@ -6,7 +6,7 @@ import Banks from "../assets/dutchbanks.jpg";
 const Services = () => {
   return (
 <section class="bg-gradient-to-b from-gray-200 to bg-gray-100 text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-24 mx-auto" id="about">
     <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 leading-8 ">Pitchfork Kickstarter Taxidermy</h1>
       <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
@@ -82,7 +82,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">CALL US</button>
   </div>
 </section>
   );

@@ -17,15 +17,13 @@ const Hero = () => {
     <section className="my-auto">
       <div
         id="indicators-carousel"
-        className="relative w-full overflow-hidden h-96 top-[70px] rounded-lg md:h-96"
-        data-carousel="static"
+        className="relative w-full overflow-hidden h-96 top-[70px] md:h-96"
+        data-carousel="slide"
       >
-        <div className="overflow-hidden h-full rounded-lg ">
-
-
-
+        <div className="overflow-hidden h-full rounded-md ">
+          
           <div
-            className="duration-700 ease-in-out"
+            className="duration-300 ease-in-out"
             data-carousel-item="active"
           >
             <img
@@ -43,7 +41,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className="duration-700 ease-in-out" data-carousel-item>
+          <div className="duration-700 ease-in-out" ddata-carousel-item>
             <img
               src={Carousel3}
               alt="Images"
@@ -51,7 +49,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className="duration-700 ease-in-out" data-carousel-item>
+          <div className="duration-700 ease-in-out" ddata-carousel-item>
             <img
               src={Carousel4}
               alt="Images"
@@ -68,7 +66,10 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+
+
+                    {/* 5 DOT */}
+        <div className="absolute z-3 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
           <button
             type="button"
             className="w-3 h-3 bg-slate-100 rounded-full"
@@ -105,7 +106,7 @@ const Hero = () => {
             data-carousel-slide-to="4"
           ></button>
         </div>
-
+                    {/* LEFT BUTTON */}
         <button
           type="button"
           className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -130,7 +131,7 @@ const Hero = () => {
             <span className="sr-only">Previous</span>
           </span>
         </button>
-
+                    {/* RIGHT BUTTON */}
         <button
           type="button"
           className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -155,6 +156,8 @@ const Hero = () => {
             <span className="sr-only">Next</span>
           </span>
         </button>
+
+
       </div>
     </section>
   );

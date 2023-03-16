@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Features = () => {
+const Statistics = () => {
   return (
     <section className='mb-4'>
-        <div className='mx-auto w-full container gap-4 p-4 sm:p-6'>
+        <div className='mx-auto w-full container gap-4 p-4 sm:p-6' id='services'>
 
             <div className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <div className="sm:hidden">
@@ -27,7 +27,7 @@ const Features = () => {
                 </ul>
                 <div id="fullWidthTabContent" className="border-t border-separate border-gray-200 dark:border-gray-600">
                     <div className=" p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="stats" role="tabpanel" aria-labelledby="stats-tab">
-                        <dl className="grid max-w-screen-xl grid-cols-1 gap-8 p-4 mx-auto border-solid border-2 border-gray-300 rounded-md  text-gray-900 sm:grid-cols-2 lg:grid-cols-3 dark:text-white sm:p-8">
+                        <dl className="grid max-w-screen-xl grid-cols-1 gap-8 p-4 mx-auto  border-gray-300 rounded-md  text-gray-900 sm:grid-cols-2 lg:grid-cols-3 dark:text-white sm:p-8">
                             <div className="flex flex-col items-center justify-center">
                                 <dt className="mb-2 text-3xl font-extrabold">73M+</dt>
                                 <dd className=" font-normal text-gray-500 dark:text-gray-400">Developers</dd>
@@ -132,4 +132,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Statistics

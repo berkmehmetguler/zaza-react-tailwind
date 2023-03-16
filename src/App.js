@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
-import Features from "./components/Features";
+import Statistics from "./components/Statistics";
 import Comman from "./components/Comman";
 import Details from "./components/Details";
 
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Features/>
+      <Statistics/>
       <Details/>
       <Comman/>
       <Footer />
