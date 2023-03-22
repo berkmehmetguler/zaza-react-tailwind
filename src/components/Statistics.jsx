@@ -102,7 +102,7 @@ const Statistics = () => {
                 <div className="flex flex-col items-center justify-center">
                   <dt className="mb-2 text-3xl font-extrabold">90+</dt>
                   <dd className=" font-normal text-gray-500 dark:text-gray-400">
-                    Top Forbes companies
+                    Top Forbes companies-+
                   </dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">

@@ -30,7 +30,7 @@ const Services = () => {
                 </svg>
               </div>
               <h2 class="text-xl leading-1 text-gray-900 font-medium title-font mb-2">
-                The citizen service number (BSN)
+                The Citizen Service Number (BSN)
               </h2>
               <p class="leading-relaxed text-base">
                 Fingerstache flexitarian street art 8-bit waist co, subway tile
