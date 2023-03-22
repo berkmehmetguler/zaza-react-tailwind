@@ -1,26 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-
-
-
 const Banner = () => {
-
-
-
-
-
-
-
-
   return (
-    <div >
-     
+    <div>
       <div
-        
         id="newsletter-banner"
         tabindex="-1"
-        className="fixed bottom-0 left-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 " 
+        className="fixed bottom-0 left-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 "
       >
         <div className="flex items-center flex-shrink-0 w-full mx-auto sm:w-auto">
           <form
@@ -67,7 +54,7 @@ const Banner = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
-            <span className="sr-only" >Close banner</span>
+            <span className="sr-only">Close banner</span>
           </button>
         </div>
       </div>

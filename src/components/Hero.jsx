@@ -1,7 +1,4 @@
 import React from "react";
-import { useState } from "react";
-
-
 
 import Carousel1 from "../assets/carousel1.jpg";
 import Carousel2 from "../assets/carousel2.jpg";
@@ -10,9 +7,6 @@ import Carousel4 from "../assets/carousel4.jpg";
 import Carousel5 from "../assets/carousel5.jpg";
 
 const Hero = () => {
-
-
-
   return (
     <section className="my-auto">
       <div
@@ -21,11 +15,7 @@ const Hero = () => {
         data-carousel="slide"
       >
         <div className="overflow-hidden h-full rounded-md ">
-          
-          <div
-            className="duration-300 ease-in-out"
-            data-carousel-item="active"
-          >
+          <div className="duration-300 ease-in-out" data-carousel-item="active">
             <img
               src={Carousel1}
               alt="Images"
@@ -66,9 +56,7 @@ const Hero = () => {
           </div>
         </div>
 
-
-
-                    {/* 5 DOT */}
+        {/* 5 DOT */}
         <div className="absolute z-3 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
           <button
             type="button"
@@ -106,7 +94,7 @@ const Hero = () => {
             data-carousel-slide-to="4"
           ></button>
         </div>
-                    {/* LEFT BUTTON */}
+        {/* LEFT BUTTON */}
         <button
           type="button"
           className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -131,7 +119,7 @@ const Hero = () => {
             <span className="sr-only">Previous</span>
           </span>
         </button>
-                    {/* RIGHT BUTTON */}
+        {/* RIGHT BUTTON */}
         <button
           type="button"
           className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -156,8 +144,6 @@ const Hero = () => {
             <span className="sr-only">Next</span>
           </span>
         </button>
-
-
       </div>
     </section>
   );

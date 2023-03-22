@@ -1,4 +1,8 @@
 import React from "react";
+import Insan1 from "../assets/insan1.jpg";
+import Insan2 from "../assets/insan2.jpg";
+import Insan3 from "../assets/insan3.jpg";
+import Insan4 from "../assets/insan4.jpg";
 
 const Comman = () => {
   return (
@@ -20,7 +24,11 @@ const Comman = () => {
               </p>
             </blockquote>
             <figcaption class="flex items-center justify-center space-x-3">
-              <img class="rounded-full w-9 h-9" src="" alt="profile picture" />
+              <img
+                class="rounded-full w-9 h-9"
+                src={<Insan1 />}
+                alt="profile picture1"
+              />
               <div class="space-y-0.5 font-medium dark:text-white text-left">
                 <div>Bonnie Green</div>
                 <div class="text-sm font-light text-gray-500 dark:text-gray-400">
@@ -40,7 +48,11 @@ const Comman = () => {
               </p>
             </blockquote>
             <figcaption class="flex items-center justify-center space-x-3">
-              <img class="rounded-full w-9 h-9" src="" alt="profile picture" />
+              <img
+                class="rounded-full w-9 h-9"
+                src={<Insan2 />}
+                alt="profile picture2"
+              />
               <div class="space-y-0.5 font-medium dark:text-white text-left">
                 <div>Roberta Casas</div>
                 <div class="text-sm font-light text-gray-500 dark:text-gray-400">
@@ -60,7 +72,12 @@ const Comman = () => {
               </p>
             </blockquote>
             <figcaption class="flex items-center justify-center space-x-3">
-              <img class="rounded-full w-9 h-9" src="" alt="profile picture" />
+              <img
+                class="rounded-full w-9 h-9"
+                src={<Insan3 />}
+                alt="profile picture3"
+              />
+
               <div class="space-y-0.5 font-medium dark:text-white text-left">
                 <div>Jese Leos</div>
                 <div class="text-sm font-light text-gray-500 dark:text-gray-400">
@@ -80,7 +97,11 @@ const Comman = () => {
               </p>
             </blockquote>
             <figcaption class="flex items-center justify-center space-x-3">
-              <img class="rounded-full w-9 h-9" src="" alt="profile picture" />
+              <img
+                class="rounded-full w-9 h-9"
+                src={<Insan4 />}
+                alt="profile picture4"
+              />
               <div class="space-y-0.5 font-medium dark:text-white text-left">
                 <div>Joseph McFall</div>
                 <div class="text-sm font-light text-gray-500 dark:text-gray-400">

@@ -1,5 +1,5 @@
 import React from "react";
-import LOOG from "../assets/LOOG.png";
+import Loog from "../assets/LOOG.png";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className=" md:flex flex-row md:justify-between gap-4">
           <div className="mb-6 md:mb-0 md:mr-4 ">
             <a href="/" className="flex items-center">
-              <img src={LOOG} className="h-8 mr-3" alt="ZAZAKAYA Logo" />
+              <img src={Loog} className="h-8 mr-3" alt="ZAZAKAYA Logo" />
               <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
                 ZAZA <span className="text-gray-400 ">KAYA</span>{" "}
               </span>
@@ -166,12 +166,12 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="/" className="hover:underline">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -193,7 +193,7 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="/"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -211,7 +211,7 @@ const Footer = () => {
               <span className="sr-only">Facebook page</span>
             </a>
             <a
-              href="#"
+              href="/"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -229,7 +229,7 @@ const Footer = () => {
               <span className="sr-only">Instagram page</span>
             </a>
             <a
-              href="#"
+              href="/"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -243,7 +243,7 @@ const Footer = () => {
               <span className="sr-only">Twitter page</span>
             </a>
             <a
-              href="#"
+              href="/"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -261,7 +261,7 @@ const Footer = () => {
               <span className="sr-only">GitHub account</span>
             </a>
             <a
-              href="#"
+              href="/"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
