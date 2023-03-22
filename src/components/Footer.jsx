@@ -1,18 +1,15 @@
 import React from "react";
+import LOOG from "../assets/LOOG.png";
 
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-l from-gray-200 to bg-gray-100 dark:bg-gray-900">
-        <hr />
+      <hr />
       <div className="mx-auto w-full flex flex-col container p-4 sm:p-6">
         <div className=" md:flex flex-row md:justify-between gap-4">
           <div className="mb-6 md:mb-0 md:mr-4 ">
             <a href="/" className="flex items-center">
-              <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8 mr-3"
-                alt="ZAZAKAYA Logo"
-              />
+              <img src={LOOG} className="h-8 mr-3" alt="ZAZAKAYA Logo" />
               <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
                 ZAZA <span className="text-gray-400 ">KAYA</span>{" "}
               </span>
@@ -152,18 +149,12 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a
-                    href="https://github.com/"
-                    className="hover:underline "
-                  >
+                  <a href="https://github.com/" className="hover:underline ">
                     Github
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/"
-                    className="hover:underline"
-                  >
+                  <a href="https://discord.gg/" className="hover:underline">
                     Discord
                   </a>
                 </li>
@@ -192,7 +183,10 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
-            <a href="https://berkmehmetguler-portfolio.netlify.app" className="hover:underline">
+            <a
+              href="https://berkmehmetguler-portfolio.netlify.app"
+              className="hover:underline"
+            >
               BMG™
             </a>
             . All Rights Reserved.
