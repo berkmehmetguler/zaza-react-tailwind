@@ -17,7 +17,7 @@ const Navbar = () => {
               type="button"
               className="text-white text-[19px]  bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
-              <a href="tel:+31625570448">Get started</a>
+              <a href="tel:+31687615350">CALL US</a>
             </button>
             <button
               data-collapse-toggle="navbar-sticky"

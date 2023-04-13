@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Statistics from "./components/Statistics";
 import Comman from "./components/Comman";
 import Details from "./components/Details";
-
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -14,9 +14,10 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Statistics/>
-      <Details/>
-      <Comman/>
+      <Statistics />
+      <Slider />
+      <Details />
+      <Comman />
       <Footer />
     </div>
   );

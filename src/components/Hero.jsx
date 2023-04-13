@@ -1,37 +1,33 @@
 import React from "react";
 
-import Carousel1 from "../assets/carousel1.jpg";
-import Carousel2 from "../assets/carousel2.jpg";
-import Carousel3 from "../assets/carousel3.jpg";
-import Carousel4 from "../assets/carousel4.jpg";
-import Carousel5 from "../assets/carousel5.jpg";
+import Carousel6 from "../assets/carousel.jpg";
 
 const Hero = () => {
   return (
-    <section className="my-auto">
+    <section className="m-auto">
       <div
         id="indicators-carousel"
-        className="relative w-full overflow-hidden h-96 top-[70px] md:h-96"
-        data-carousel="slide"
+        className=" relative w-full overflow-hidden h-96 top-[70px] md:h-96"
       >
-        <div className="overflow-hidden h-full rounded-md ">
-          <div className="duration-300 ease-in-out" data-carousel-item="active">
-            <img
-              src={Carousel1}
-              alt="Images"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            />
+        <div className=" h-full rounded-md ">
+          <img
+            src={Carousel6}
+            alt="alt mage"
+            className=" w-full h-3/2  -translate-y-1/2 top-1/2 left-1/2"
+          />
+          {/* <div className="duration-300 ease-in-out">
+            <img src={Carousel4} alt="Images" className=" block w-full " />
           </div>
 
-          <div className="duration-700 ease-in-out" data-carousel-item>
+          <div className="duration-700 ease-in-out">
             <img
               src={Carousel2}
               alt="Images"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className=" w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
 
-          <div className="duration-700 ease-in-out" ddata-carousel-item>
+          <div className="duration-700 ease-in-out">
             <img
               src={Carousel3}
               alt="Images"
@@ -39,21 +35,21 @@ const Hero = () => {
             />
           </div>
 
-          <div className="duration-700 ease-in-out" ddata-carousel-item>
+          <div className="duration-700 ease-in-out">
             <img
-              src={Carousel4}
+              src={Carousel1}
               alt="Images"
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
 
-          <div className="duration-700 ease-in-out" data-carousel-item>
+          <div className="duration-700 ease-in-out">
             <img
               src={Carousel5}
               alt="Images"
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
-          </div>
+          </div> */}
         </div>
 
         {/* 5 DOT */}
