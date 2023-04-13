@@ -6,9 +6,7 @@ const Statistics = () => {
       <div className="mx-auto w-full container gap-4 p-4 sm:p-6" id="services">
         <div className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <div className="sm:hidden">
-            <label for="tabs" className="sr-only">
-              Select tab
-            </label>
+            <label className="sr-only">Select tab</label>
             <select
               id="tabs"
               className="bg-gray-50 border-0 border-b border-gray-200 text-gray-900 text-sm rounded-t-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -130,11 +128,7 @@ const Statistics = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
+                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                   </svg>
                   <span className="font-light leading-tight">
                     Dynamic reports and dashboards
@@ -147,11 +141,7 @@ const Statistics = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
+                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                   </svg>
                   <span className="font-light leading-tight">
                     Templates for everyone
@@ -164,11 +154,7 @@ const Statistics = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
+                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                   </svg>
                   <span className="font-light leading-tight">
                     Development workflow
@@ -181,11 +167,7 @@ const Statistics = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
+                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
                   </svg>
                   <span className="font-light leading-tight">
                     Limitless business automation
@@ -221,11 +203,7 @@ const Statistics = () => {
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        fill-rule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
-                      ></path>
+                      <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"></path>
                     </svg>
                   </button>
                 </h2>
@@ -269,11 +247,7 @@ const Statistics = () => {
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        fill-rule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
-                      ></path>
+                      <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"></path>
                     </svg>
                   </button>
                 </h2>
@@ -319,11 +293,7 @@ const Statistics = () => {
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        fill-rule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
-                      ></path>
+                      <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"></path>
                     </svg>
                   </button>
                 </h2>

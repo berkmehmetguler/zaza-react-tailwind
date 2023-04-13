@@ -20,9 +20,6 @@ const Details = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
                 className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
@@ -39,9 +36,6 @@ const Details = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
                 className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
@@ -58,9 +52,6 @@ const Details = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
                 className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
@@ -77,9 +68,6 @@ const Details = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
                 className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
@@ -96,9 +84,6 @@ const Details = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
                 className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
@@ -115,9 +100,6 @@ const Details = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
                 className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
