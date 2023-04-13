@@ -20,7 +20,7 @@ const Slider = () => {
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      onSlideChange={() => console.log("Slide change")}
     >
       <SwiperSlide>
         <img src={Carousel4} alt="Images" className="  w-full " />
