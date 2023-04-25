@@ -25,8 +25,6 @@ const Statistics = () => {
             <li className="w-full">
               <button
                 id="stats-tab"
-                data-tabs-target="#stats"
-                type="button"
                 role="tab"
                 aria-controls="stats"
                 aria-selected="true"
@@ -38,8 +36,6 @@ const Statistics = () => {
             <li className="w-full">
               <button
                 id="about-tab"
-                data-tabs-target="#about"
-                type="button"
                 role="tab"
                 aria-controls="about"
                 aria-selected="false"
@@ -51,8 +47,6 @@ const Statistics = () => {
             <li className="w-full">
               <button
                 id="faq-tab"
-                data-tabs-target="#faq"
-                type="button"
                 role="tab"
                 aria-controls="faq"
                 aria-selected="false"
@@ -69,8 +63,6 @@ const Statistics = () => {
             <div
               className=" p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
               id="stats"
-              role="tabpanel"
-              aria-labelledby="stats-tab"
             >
               <dl className="grid max-w-screen-xl grid-cols-1 gap-8 p-4 mx-auto  border-gray-300 rounded-md  text-gray-900 sm:grid-cols-2 lg:grid-cols-3 dark:text-white sm:p-8">
                 <div className="flex flex-col items-center justify-center">
@@ -100,7 +92,7 @@ const Statistics = () => {
                 <div className="flex flex-col items-center justify-center">
                   <dt className="mb-2 text-3xl font-extrabold">90+</dt>
                   <dd className=" font-normal text-gray-500 dark:text-gray-400">
-                    Top Forbes companies-+
+                    Top Forbes companies
                   </dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -111,11 +103,11 @@ const Statistics = () => {
                 </div>
               </dl>
             </div>
-            <div
-              className="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
+
+            {/* Services */}
+            {/* <div
+              className=" p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
               id="about"
-              role="tabpanel"
-              aria-labelledby="about-tab"
             >
               <h2 className="mb-5 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">
                 We invest in the world’s potential
@@ -174,12 +166,11 @@ const Statistics = () => {
                   </span>
                 </li>
               </ul>
-            </div>
-            <div
-              className="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
+            </div> */}
+            {/* FAQ */}
+            {/* <div
+              className=" p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
               id="faq"
-              role="tabpanel"
-              aria-labelledby="faq-tab"
             >
               <div
                 id="accordion-flush"
@@ -188,16 +179,9 @@ const Statistics = () => {
                 data-inactive-classes="text-gray-500 dark:text-gray-400"
               >
                 <h2 id="accordion-flush-heading-1">
-                  <button
-                    type="button"
-                    className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
-                    data-accordion-target="#accordion-flush-body-1"
-                    aria-expanded="true"
-                    aria-controls="accordion-flush-body-1"
-                  >
+                  <button className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
                     <span>What is Flowbite?</span>
                     <svg
-                      data-accordion-icon
                       className="w-6 h-6 rotate-180 shrink-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
@@ -207,11 +191,7 @@ const Statistics = () => {
                     </svg>
                   </button>
                 </h2>
-                <div
-                  id="accordion-flush-body-1"
-                  className="hidden"
-                  aria-labelledby="accordion-flush-heading-1"
-                >
+                <div id="accordion-flush-body-1" className="hidden">
                   <div className="py-5 font-light border-b border-gray-200 dark:border-gray-700">
                     <p className="mb-2 text-gray-500 dark:text-gray-400">
                       Flowbite is an open-source library of interactive
@@ -232,16 +212,9 @@ const Statistics = () => {
                   </div>
                 </div>
                 <h2 id="accordion-flush-heading-2">
-                  <button
-                    type="button"
-                    className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
-                    data-accordion-target="#accordion-flush-body-2"
-                    aria-expanded="false"
-                    aria-controls="accordion-flush-body-2"
-                  >
+                  <button className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
                     <span>Is there a Figma file available?</span>
                     <svg
-                      data-accordion-icon
                       className="w-6 h-6 shrink-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
@@ -251,11 +224,7 @@ const Statistics = () => {
                     </svg>
                   </button>
                 </h2>
-                <div
-                  id="accordion-flush-body-2"
-                  className="hidden"
-                  aria-labelledby="accordion-flush-heading-2"
-                >
+                <div id="accordion-flush-body-2" className="hidden">
                   <div className="py-5 font-light border-b border-gray-200 dark:border-gray-700">
                     <p className="mb-2 text-gray-500 dark:text-gray-400">
                       Flowbite is first conceptualized and designed using the
@@ -265,7 +234,7 @@ const Statistics = () => {
                     <p className="text-gray-500 dark:text-gray-400">
                       Check out the{" "}
                       <a
-                        href="https://flowbite.com/figma/"
+                        href="/"
                         className="text-blue-600 dark:text-blue-500 hover:underline"
                       >
                         Figma design system
@@ -276,13 +245,7 @@ const Statistics = () => {
                   </div>
                 </div>
                 <h2 id="accordion-flush-heading-3">
-                  <button
-                    type="button"
-                    className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
-                    data-accordion-target="#accordion-flush-body-3"
-                    aria-expanded="false"
-                    aria-controls="accordion-flush-body-3"
-                  >
+                  <button className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
                     <span>
                       What are the differences between Flowbite and Tailwind UI?
                     </span>
@@ -297,11 +260,7 @@ const Statistics = () => {
                     </svg>
                   </button>
                 </h2>
-                <div
-                  id="accordion-flush-body-3"
-                  className="hidden"
-                  aria-labelledby="accordion-flush-heading-3"
-                >
+                <div id="accordion-flush-body-3" className="hidden">
                   <div className="py-5 font-light border-b border-gray-200 dark:border-gray-700">
                     <p className="mb-2 text-gray-500 dark:text-gray-400">
                       The main difference is that the core components from
@@ -322,7 +281,7 @@ const Statistics = () => {
                     <ul className="pl-5 text-gray-500 list-disc dark:text-gray-400">
                       <li>
                         <a
-                          href="https://flowbite.com/pro/"
+                          href="/"
                           className="text-blue-600 dark:text-blue-500 hover:underline"
                         >
                           Flowbite Pro
@@ -330,7 +289,7 @@ const Statistics = () => {
                       </li>
                       <li>
                         <a
-                          href="https://tailwindui.com/"
+                          href="/"
                           rel="nofollow"
                           className="text-blue-600 dark:text-blue-500 hover:underline"
                         >
@@ -341,7 +300,7 @@ const Statistics = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

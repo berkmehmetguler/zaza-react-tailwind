@@ -26,7 +26,7 @@ const Comman = () => {
             <figcaption className="flex items-center justify-center space-x-3">
               <img
                 className="rounded-full w-9 h-9"
-                src={<Insan1 />}
+                src={Insan1}
                 alt="profile picture1"
               />
               <div className="space-y-0.5 font-medium dark:text-white text-left">
@@ -50,7 +50,7 @@ const Comman = () => {
             <figcaption className="flex items-center justify-center space-x-3">
               <img
                 className="rounded-full w-9 h-9"
-                src={<Insan2 />}
+                src={Insan2}
                 alt="profile picture2"
               />
               <div className="space-y-0.5 font-medium dark:text-white text-left">
@@ -74,7 +74,7 @@ const Comman = () => {
             <figcaption className="flex items-center justify-center space-x-3">
               <img
                 className="rounded-full w-9 h-9"
-                src={<Insan3 />}
+                src={Insan3}
                 alt="profile picture3"
               />
 
@@ -99,7 +99,7 @@ const Comman = () => {
             <figcaption className="flex items-center justify-center space-x-3">
               <img
                 className="rounded-full w-9 h-9"
-                src={<Insan4 />}
+                src={Insan4}
                 alt="profile picture4"
               />
               <div className="space-y-0.5 font-medium dark:text-white text-left">

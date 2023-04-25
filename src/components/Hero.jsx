@@ -11,41 +11,6 @@ const Hero = () => {
           alt="alt mage"
           className=" w-full md:h-3/2  my-4 md:-translate-y-[30%] md:top-1/2 md:left-1/2"
         />
-        {/* <div className="duration-300 ease-in-out">
-            <img src={Carousel4} alt="Images" className=" block w-full " />
-          </div>
-
-          <div className="duration-700 ease-in-out">
-            <img
-              src={Carousel2}
-              alt="Images"
-              className=" w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            />
-          </div>
-
-          <div className="duration-700 ease-in-out">
-            <img
-              src={Carousel3}
-              alt="Images"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            />
-          </div>
-
-          <div className="duration-700 ease-in-out">
-            <img
-              src={Carousel1}
-              alt="Images"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            />
-          </div>
-
-          <div className="duration-700 ease-in-out">
-            <img
-              src={Carousel5}
-              alt="Images"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            />
-          </div> */}
       </div>
 
       {/* 5 DOT */}
@@ -103,14 +68,12 @@ const Hero = () => {
           >
             <path d="M15 19l-7-7 7-7"></path>
           </svg>
-          <span className="sr-only">Previous</span>
         </span>
       </button>
       {/* RIGHT BUTTON */}
       <button
         type="button"
         className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        data-carousel-next
       >
         <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
           <svg
@@ -123,7 +86,6 @@ const Hero = () => {
           >
             <path d="M9 5l7 7-7 7"></path>
           </svg>
-          <span className="sr-only">Next</span>
         </span>
       </button>
     </section>
