@@ -1,5 +1,6 @@
 import React from "react";
 import LOOG from "../assets/LOOG.png";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -43,15 +44,14 @@ const Navbar = () => {
             </button>
           </div>
           <div
-            className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            className="items-center  justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
-            <ul className="flex flex-col p-4 mt-4 border border-gray-400 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex shadow-inner shadow-xl gap-6 bg-slate-300 flex-col border-b-2 md:border-none p-4 border-separate  border-gray-400 rounded-md  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-[18px] text-white bg-blue-400 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                  aria-current="page"
+                  className="block border-b-2 md:border-none py-2 pl-3 pr-4 text-[18px] text-white bg-blue-400 rounded  md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 >
                   Home
                 </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#about"
-                  className="block py-2 pl-3 pr-4 text-[18px] text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block border-b-2 md:border-none py-2 pl-3 pr-4 text-[18px] text-gray-700 rounded  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   About
                 </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#services"
-                  className="block py-2 pl-3 pr-4 text-[18px] text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block border-b-2 md:border-none py-2 pl-3 pr-4 text-[18px] text-gray-700 rounded  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Services
                 </a>
@@ -75,10 +75,21 @@ const Navbar = () => {
               <li>
                 <a
                   href="#contact"
-                  className="block py-2 pl-3 pr-4 text-[18px] text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block border-b-2 md:border-none py-2 pl-3 pr-4 text-[18px] text-gray-700 rounded  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact
                 </a>
+              </li>
+              <li className="md:hidden flex flex-row-reverse">
+                <button className=" rounded  p-2 border-2 border-green-400  bg-slate-100">
+                  <a
+                    href="tel:+31687615350"
+                    className="flex flex-row-reverse mt-1 gap-2"
+                  >
+                    <BsWhatsapp size={25} className=" text-green-400" />
+                    <h2 className="text-xl">WhatsApp</h2>
+                  </a>
+                </button>
               </li>
             </ul>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import Carousel1 from "../assets/carousel1.jpg";
 import Carousel3 from "../assets/carousel3.jpg";
@@ -11,12 +11,30 @@ import Carousel6 from "../assets/carousel.jpg";
 const Slider = () => {
   return (
     <Swiper
+      breakpoints={{
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 1,
+        },
+        // when window width is >= 768px
+        768: {
+          slidesPerView: 2,
+        },
+        // when window width is >= 1200px
+        1200: {
+          slidesPerView: 3,
+        },
+      }}
       className="my-auto h-full "
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={3}
+      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       autoplay={true}
+      speed={1500}
+      simulateTouch={true}
+      preloadImages={true}
+      loop={true}
+      navigation={true}
+      spaceBetween={30}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
