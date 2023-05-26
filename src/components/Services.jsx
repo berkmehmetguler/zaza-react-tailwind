@@ -9,8 +9,7 @@ const Services = () => {
             Consultancy Services
           </h1>
           <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table.
+          Unlock Your Potential with Expert Consultancy Services
           </p>
         </div>
         <div className="flex flex-wrap ">
@@ -30,8 +29,7 @@ const Services = () => {
                 The Citizen Service Number (BSN)
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              Power of Your Citizen Service Number (BSN) to Open Doors and Propel Your Success
               </p>
             </div>
           </div>
@@ -53,8 +51,7 @@ const Services = () => {
                 Dutch Business Register (KVK)
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              KVK number for every business purchase, subscription or insurance. 
               </p>
             </div>
           </div>
@@ -75,8 +72,7 @@ const Services = () => {
                 DigiD Applications
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              DigiD you identify yourself when you arrange matters online.
               </p>
             </div>
           </div>
@@ -96,8 +92,7 @@ const Services = () => {
                 Dutch Bank Account
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              Bank accounts enable you to take your sallary on the amout of your budget.
               </p>
             </div>
           </div>
