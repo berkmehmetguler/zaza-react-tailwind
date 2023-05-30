@@ -47,7 +47,7 @@ const Navbar = () => {
             className="items-center  justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
-            <ul className="flex  shadow-xl gap-6 bg-slate-300 flex-col border-b-2 md:border-none p-4 border-separate  border-gray-400 rounded-md  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex  shadow-xl gap-6  flex-col border-b-2 md:border-none p-4 border-separate  border-gray-400 rounded-b-md  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
                   href="/"

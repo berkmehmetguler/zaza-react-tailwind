@@ -25,7 +25,7 @@ const Comman = () => {
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
               <img
-                className="rounded-full w-9 h-9"
+                className="w-10 h-10 rounded-full"
                 src={Insan1}
                 alt="profile picture1"
               />
@@ -49,7 +49,7 @@ const Comman = () => {
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
               <img
-                className="rounded-full w-9 h-9"
+                className="w-10 h-10 rounded-full"
                 src={Insan2}
                 alt="profile picture2"
               />
@@ -73,7 +73,7 @@ const Comman = () => {
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
               <img
-                className="rounded-full w-9 h-9"
+                className="w-10 h-10 rounded-full"
                 src={Insan3}
                 alt="profile picture3"
               />
@@ -98,7 +98,7 @@ const Comman = () => {
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
               <img
-                className="rounded-full w-9 h-9"
+                className="w-10 h-10 rounded-full"
                 src={Insan4}
                 alt="profile picture4"
               />

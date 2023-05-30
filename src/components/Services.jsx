@@ -112,8 +112,7 @@ const Services = () => {
                 Bussines Connection
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              In order to be successful in business, make strong business connections.
               </p>
             </div>
           </div>
@@ -133,8 +132,7 @@ const Services = () => {
                 Law & Determination
               </h2>
               <p className="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              Business law plays a vital role in regulating business practices in a country.
               </p>
             </div>
           </div>
